@@ -1,0 +1,16 @@
+.zoom-wrapper {
+    height: 600px;
+    overflow: hidden;
+    border-radius: 16px;
+    justify-content: center;
+}
+
+.zoom-wrapper img {
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    height: 100%;
+}
+
+.zoom-wrapper:hover img {
+    transform: scale(1.5);
+}
